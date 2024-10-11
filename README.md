@@ -1,7 +1,11 @@
 # PriviledgeEscalation
 Priviledge Escalation scripts for CALDERA on Kathara'
 
-This repository contains scripts and code designed to achieve privilege escalation in Ubuntu 18.04 environments. There are two main scripts: `autonameHiding.sh` and `sudoFIX.sh`.
+This repository contains scripts and code designed to achieve privilege escalation in Ubuntu 18.04 environments. During our tests, we used this image for building both the attacker and the victim's node.
+
+[![Docker Image](https://img.shields.io/badge/Docker-immagine%20disponibile-blue)](https://hub.docker.com/repository/docker/adrianoturnu/kat-cal-tools-mk2/general)
+
+There are two main scripts: `autonameHiding.sh` and `sudoFIX.sh`.
 
 - autonameHiding.sh automates the process of renaming a process that needs to be hidden. To use it, place the script in the same directory as the target file, modify the script to change the process name and the file to be hidden.
   
